@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Arithmetic Operations</title>
+   <script type= "text/javascript ">
+  <!--
+    function math()
+    {
+        var ch=parseInt(prompt( "Enter your choice 1.Addition  2.Subtraction  3.Multiplication  4.Division "));
+           var v1=parseInt(prompt( "Enter the first value "));
+           var v2=parseInt(prompt( "Enter the second value "));
+         switch(ch)
+    {
+        case 1:   
+                   var v3=v1+v2;
+                   document.writeln( "<br> "+ "Addition: "+v3);
+                   break;
+        case 2:   
+                   var v4=v1-v2;
+                   document.writeln( "<br> "+ "Subtraction: "+v4);
+                   break;
+        case 3:    
+                   var v5=v1*v2;
+                   document.writeln( "<br> "+ "Multiplication:  "+v5);
+                   break;
+        case 4: 
+                   var v6=v1/v2;
+                   document.writeln( "<br> "+ "Divison: "+v6);
+                   break;
+        case 5:  
+                   var v7=v1%v2;
+                   document.writeln( "<br> "+ "Modulus: "+v7);
+                   break;
+        default:   document.writeln( "Enter choice correctly ");
+    }
+ 
+}
+</script>
+</head>
+<body onLoad= "math()">
+</body>
+</html>
